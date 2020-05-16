@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+header h4{
+    width: fit-content;
+    background-color: hsl(0, 6%, 37%);
+    color: white;
+    padding: 5px 15px;
+    
+}
+/* getting nav in one line */
+.navbar li{
+    display: inline;
+    
+}
+/* chaning properties of attributes in nav bar */
+.navbar a{
+    color: black;
+    padding-right: 15px;
+
+}
+/* targeting last attribute by using pseudo-element  */
+.navbar li:last-child  a{
+    float: right;
+    border: 1px solid #348aec;
+    border-radius: 2px;
+    padding: 3px 15px;
+    color: #348aec;
+    font-weight: bold;
+    box-shadow: 1px 1px #348aec;   
+}
+img{
+    width: 100%;
+    margin-top: 20px;
+}
+/* desiging Get in Touch area incl email,mobile number and LinkedIn */
+
+.getInTouch li{
+    text-align: center;
+    border: 1px solid hsl(0, 2%, 49%);
+    width: 50%;
+    padding: 5px 15px;
+    margin: 5px;
+    margin-left: 20%;
+    box-shadow: 0.5px 0.5px hsl(0, 2%, 49%);
+    border-radius: 2px;
+
+}
+.getInTouch li:first-child{
+    border: 1px solid #348aec;
+    box-shadow: 0.5px 0.5px #348aec;
+    color: #348aec;
+}
+.getInTouch li:first-child a{
+    color: #348aec;
+}
+/* managing Address area */
+
+.socialIcons{
+    text-align: center;
+    margin-top: 20px;
+}
+.socialIcons p{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: hsl(0, 2%, 49%);
+    
+}
+.socialIcons li{
+    display: inline;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    font-size: 20px;
+    
+}
+hr{
+   border: .05px solid #348aec;
+}
+
+/* managing footer design */
+.footer h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 12px;
+    color: hsl(0, 2%, 49%);
+}
